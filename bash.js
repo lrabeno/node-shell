@@ -11,9 +11,6 @@ process.stdin.on("data", (data) => {
   //   console.log("COMMAMD FROM 11", cmd);
   const [file, arg] = cmd.split(" ");
 
-  //   console.log("This the file --->>>", file);
-  //   console.log("This the ARGGG --->>>", arg);
-
   if (cmd === "pwd") {
     pwd();
   } else if (cmd === "ls") {

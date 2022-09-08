@@ -5,7 +5,7 @@ module.exports = (fileName) => {
     if (err) {
       throw err;
     } else {
-      console.log("huhhhhh???", data);
+      console.log(data);
     }
   });
 };
